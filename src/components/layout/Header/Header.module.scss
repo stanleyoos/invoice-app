@@ -1,0 +1,13 @@
+@import '../../../styles/colors.scss';
+
+.cl  {
+    height: 100px;
+    align-items: center;
+    color: $text-dark-gray;
+    display: flex;
+    justify-content: space-between;
+    
+    h1 {
+        margin-left: 20px;
+    }
+}

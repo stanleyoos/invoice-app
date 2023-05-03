@@ -1,0 +1,37 @@
+@import '../../../styles/colors.scss';
+
+.navbarul {
+    display: flex;
+
+    list-style: none;
+    a {
+        text-decoration: none;
+        color: $text-dark-gray;
+        margin-right: 10px;
+        font-size: 20px;
+
+        &:hover {
+            color: rgb(195, 195, 195);
+        }
+
+        &.active {
+            color: rgb(3, 35, 68);
+        }
+    }
+}
+
+.fasun {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .navbarul {
+        display: none;
+    }
+
+    .fasun {
+        display: block;
+    }
+}

@@ -1,10 +1,12 @@
 import styles from './Header.module.scss'
 import Navbar from '../Navbar/Navbar'
+import { faFileInvoice } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header = () => {
   return (
     <div className={styles.cl}>
-      <h1>Invoice App</h1>
+      <h1><FontAwesomeIcon icon={faFileInvoice}/> app</h1>
       <Navbar/>
     </div>
     
