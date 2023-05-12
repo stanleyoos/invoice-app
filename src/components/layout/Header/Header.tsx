@@ -6,7 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Header = () => {
   return (
     <div className={styles.cl}>
-      <h1><FontAwesomeIcon icon={faFileInvoice}/> app</h1>
+      <h1><FontAwesomeIcon icon={faFileInvoice}/> 
+        <span>Invoice app</span>
+      </h1>
       <Navbar/>
     </div>
     
